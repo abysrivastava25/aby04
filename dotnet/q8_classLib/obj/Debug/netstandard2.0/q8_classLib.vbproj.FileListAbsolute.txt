@@ -1,0 +1,8 @@
+C:\Users\Abhishek Srivastava\source\repos\q8_classLib\bin\Debug\netstandard2.0\q8_classLib.deps.json
+C:\Users\Abhishek Srivastava\source\repos\q8_classLib\bin\Debug\netstandard2.0\q8_classLib.dll
+C:\Users\Abhishek Srivastava\source\repos\q8_classLib\bin\Debug\netstandard2.0\q8_classLib.pdb
+C:\Users\Abhishek Srivastava\source\repos\q8_classLib\obj\Debug\netstandard2.0\q8_classLib.vbprojAssemblyReference.cache
+C:\Users\Abhishek Srivastava\source\repos\q8_classLib\obj\Debug\netstandard2.0\q8_classLib.AssemblyInfoInputs.cache
+C:\Users\Abhishek Srivastava\source\repos\q8_classLib\obj\Debug\netstandard2.0\q8_classLib.AssemblyInfo.vb
+C:\Users\Abhishek Srivastava\source\repos\q8_classLib\obj\Debug\netstandard2.0\q8_classLib.dll
+C:\Users\Abhishek Srivastava\source\repos\q8_classLib\obj\Debug\netstandard2.0\q8_classLib.pdb

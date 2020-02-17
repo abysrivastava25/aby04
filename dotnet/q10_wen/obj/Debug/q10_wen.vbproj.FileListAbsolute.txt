@@ -1,0 +1,16 @@
+C:\Users\Abhishek Srivastava\source\repos\q10_wen\bin\Debug\q10_wen.exe.config
+C:\Users\Abhishek Srivastava\source\repos\q10_wen\bin\Debug\q10_wen.exe
+C:\Users\Abhishek Srivastava\source\repos\q10_wen\bin\Debug\q10_wen.pdb
+C:\Users\Abhishek Srivastava\source\repos\q10_wen\bin\Debug\q10_wen.xml
+C:\Users\Abhishek Srivastava\source\repos\q10_wen\obj\Debug\q10_wen.vbprojAssemblyReference.cache
+C:\Users\Abhishek Srivastava\source\repos\q10_wen\obj\Debug\MainWindow.g.vb
+C:\Users\Abhishek Srivastava\source\repos\q10_wen\obj\Debug\Application.g.vb
+C:\Users\Abhishek Srivastava\source\repos\q10_wen\obj\Debug\q10_wen_MarkupCompile.cache
+C:\Users\Abhishek Srivastava\source\repos\q10_wen\obj\Debug\q10_wen_MarkupCompile.lref
+C:\Users\Abhishek Srivastava\source\repos\q10_wen\obj\Debug\MainWindow.baml
+C:\Users\Abhishek Srivastava\source\repos\q10_wen\obj\Debug\q10_wen.g.resources
+C:\Users\Abhishek Srivastava\source\repos\q10_wen\obj\Debug\q10_wen.Resources.resources
+C:\Users\Abhishek Srivastava\source\repos\q10_wen\obj\Debug\q10_wen.vbproj.GenerateResource.cache
+C:\Users\Abhishek Srivastava\source\repos\q10_wen\obj\Debug\q10_wen.exe
+C:\Users\Abhishek Srivastava\source\repos\q10_wen\obj\Debug\q10_wen.xml
+C:\Users\Abhishek Srivastava\source\repos\q10_wen\obj\Debug\q10_wen.pdb

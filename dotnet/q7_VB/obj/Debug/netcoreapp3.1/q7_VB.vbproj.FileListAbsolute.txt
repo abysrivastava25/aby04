@@ -1,0 +1,11 @@
+C:\Users\Abhishek Srivastava\source\repos\q7_VB\bin\Debug\netcoreapp3.1\q7_VB.exe
+C:\Users\Abhishek Srivastava\source\repos\q7_VB\bin\Debug\netcoreapp3.1\q7_VB.deps.json
+C:\Users\Abhishek Srivastava\source\repos\q7_VB\bin\Debug\netcoreapp3.1\q7_VB.runtimeconfig.json
+C:\Users\Abhishek Srivastava\source\repos\q7_VB\bin\Debug\netcoreapp3.1\q7_VB.runtimeconfig.dev.json
+C:\Users\Abhishek Srivastava\source\repos\q7_VB\bin\Debug\netcoreapp3.1\q7_VB.dll
+C:\Users\Abhishek Srivastava\source\repos\q7_VB\bin\Debug\netcoreapp3.1\q7_VB.pdb
+C:\Users\Abhishek Srivastava\source\repos\q7_VB\obj\Debug\netcoreapp3.1\q7_VB.vbprojAssemblyReference.cache
+C:\Users\Abhishek Srivastava\source\repos\q7_VB\obj\Debug\netcoreapp3.1\q7_VB.AssemblyInfoInputs.cache
+C:\Users\Abhishek Srivastava\source\repos\q7_VB\obj\Debug\netcoreapp3.1\q7_VB.AssemblyInfo.vb
+C:\Users\Abhishek Srivastava\source\repos\q7_VB\obj\Debug\netcoreapp3.1\q7_VB.dll
+C:\Users\Abhishek Srivastava\source\repos\q7_VB\obj\Debug\netcoreapp3.1\q7_VB.pdb

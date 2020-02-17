@@ -1,0 +1,11 @@
+C:\Users\Abhishek Srivastava\source\repos\q7_demo\bin\Debug\netcoreapp3.1\q7_demo.exe
+C:\Users\Abhishek Srivastava\source\repos\q7_demo\bin\Debug\netcoreapp3.1\q7_demo.deps.json
+C:\Users\Abhishek Srivastava\source\repos\q7_demo\bin\Debug\netcoreapp3.1\q7_demo.runtimeconfig.json
+C:\Users\Abhishek Srivastava\source\repos\q7_demo\bin\Debug\netcoreapp3.1\q7_demo.runtimeconfig.dev.json
+C:\Users\Abhishek Srivastava\source\repos\q7_demo\bin\Debug\netcoreapp3.1\q7_demo.dll
+C:\Users\Abhishek Srivastava\source\repos\q7_demo\bin\Debug\netcoreapp3.1\q7_demo.pdb
+C:\Users\Abhishek Srivastava\source\repos\q7_demo\obj\Debug\netcoreapp3.1\q7_demo.csprojAssemblyReference.cache
+C:\Users\Abhishek Srivastava\source\repos\q7_demo\obj\Debug\netcoreapp3.1\q7_demo.AssemblyInfoInputs.cache
+C:\Users\Abhishek Srivastava\source\repos\q7_demo\obj\Debug\netcoreapp3.1\q7_demo.AssemblyInfo.cs
+C:\Users\Abhishek Srivastava\source\repos\q7_demo\obj\Debug\netcoreapp3.1\q7_demo.dll
+C:\Users\Abhishek Srivastava\source\repos\q7_demo\obj\Debug\netcoreapp3.1\q7_demo.pdb

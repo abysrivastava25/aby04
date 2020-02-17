@@ -1,0 +1,11 @@
+C:\Users\Abhishek Srivastava\source\repos\q8_console\bin\Debug\netcoreapp3.1\q8_console.exe
+C:\Users\Abhishek Srivastava\source\repos\q8_console\bin\Debug\netcoreapp3.1\q8_console.deps.json
+C:\Users\Abhishek Srivastava\source\repos\q8_console\bin\Debug\netcoreapp3.1\q8_console.runtimeconfig.json
+C:\Users\Abhishek Srivastava\source\repos\q8_console\bin\Debug\netcoreapp3.1\q8_console.runtimeconfig.dev.json
+C:\Users\Abhishek Srivastava\source\repos\q8_console\bin\Debug\netcoreapp3.1\q8_console.dll
+C:\Users\Abhishek Srivastava\source\repos\q8_console\bin\Debug\netcoreapp3.1\q8_console.pdb
+C:\Users\Abhishek Srivastava\source\repos\q8_console\obj\Debug\netcoreapp3.1\q8_console.vbprojAssemblyReference.cache
+C:\Users\Abhishek Srivastava\source\repos\q8_console\obj\Debug\netcoreapp3.1\q8_console.AssemblyInfoInputs.cache
+C:\Users\Abhishek Srivastava\source\repos\q8_console\obj\Debug\netcoreapp3.1\q8_console.AssemblyInfo.vb
+C:\Users\Abhishek Srivastava\source\repos\q8_console\obj\Debug\netcoreapp3.1\q8_console.dll
+C:\Users\Abhishek Srivastava\source\repos\q8_console\obj\Debug\netcoreapp3.1\q8_console.pdb
