@@ -1,0 +1,11 @@
+C:\Users\Abhishek Srivastava\source\repos\session_net\bin\Debug\netcoreapp3.1\session_net.exe
+C:\Users\Abhishek Srivastava\source\repos\session_net\bin\Debug\netcoreapp3.1\session_net.deps.json
+C:\Users\Abhishek Srivastava\source\repos\session_net\bin\Debug\netcoreapp3.1\session_net.runtimeconfig.json
+C:\Users\Abhishek Srivastava\source\repos\session_net\bin\Debug\netcoreapp3.1\session_net.runtimeconfig.dev.json
+C:\Users\Abhishek Srivastava\source\repos\session_net\bin\Debug\netcoreapp3.1\session_net.dll
+C:\Users\Abhishek Srivastava\source\repos\session_net\bin\Debug\netcoreapp3.1\session_net.pdb
+C:\Users\Abhishek Srivastava\source\repos\session_net\obj\Debug\netcoreapp3.1\session_net.csprojAssemblyReference.cache
+C:\Users\Abhishek Srivastava\source\repos\session_net\obj\Debug\netcoreapp3.1\session_net.AssemblyInfoInputs.cache
+C:\Users\Abhishek Srivastava\source\repos\session_net\obj\Debug\netcoreapp3.1\session_net.AssemblyInfo.cs
+C:\Users\Abhishek Srivastava\source\repos\session_net\obj\Debug\netcoreapp3.1\session_net.dll
+C:\Users\Abhishek Srivastava\source\repos\session_net\obj\Debug\netcoreapp3.1\session_net.pdb
