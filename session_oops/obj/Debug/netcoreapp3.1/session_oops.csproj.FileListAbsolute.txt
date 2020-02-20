@@ -1,0 +1,11 @@
+C:\Users\Abhishek Srivastava\source\repos\session_oops\bin\Debug\netcoreapp3.1\session_oops.exe
+C:\Users\Abhishek Srivastava\source\repos\session_oops\bin\Debug\netcoreapp3.1\session_oops.deps.json
+C:\Users\Abhishek Srivastava\source\repos\session_oops\bin\Debug\netcoreapp3.1\session_oops.runtimeconfig.json
+C:\Users\Abhishek Srivastava\source\repos\session_oops\bin\Debug\netcoreapp3.1\session_oops.runtimeconfig.dev.json
+C:\Users\Abhishek Srivastava\source\repos\session_oops\bin\Debug\netcoreapp3.1\session_oops.dll
+C:\Users\Abhishek Srivastava\source\repos\session_oops\bin\Debug\netcoreapp3.1\session_oops.pdb
+C:\Users\Abhishek Srivastava\source\repos\session_oops\obj\Debug\netcoreapp3.1\session_oops.csprojAssemblyReference.cache
+C:\Users\Abhishek Srivastava\source\repos\session_oops\obj\Debug\netcoreapp3.1\session_oops.AssemblyInfoInputs.cache
+C:\Users\Abhishek Srivastava\source\repos\session_oops\obj\Debug\netcoreapp3.1\session_oops.AssemblyInfo.cs
+C:\Users\Abhishek Srivastava\source\repos\session_oops\obj\Debug\netcoreapp3.1\session_oops.dll
+C:\Users\Abhishek Srivastava\source\repos\session_oops\obj\Debug\netcoreapp3.1\session_oops.pdb
