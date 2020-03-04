@@ -1,0 +1,9 @@
+C:\Users\Abhishek Srivastava\source\repos\calculator\bin\Debug\calculator.exe.config
+C:\Users\Abhishek Srivastava\source\repos\calculator\bin\Debug\calculator.exe
+C:\Users\Abhishek Srivastava\source\repos\calculator\bin\Debug\calculator.pdb
+C:\Users\Abhishek Srivastava\source\repos\calculator\obj\Debug\calculator.csprojAssemblyReference.cache
+C:\Users\Abhishek Srivastava\source\repos\calculator\obj\Debug\calculator.Form1.resources
+C:\Users\Abhishek Srivastava\source\repos\calculator\obj\Debug\calculator.Properties.Resources.resources
+C:\Users\Abhishek Srivastava\source\repos\calculator\obj\Debug\calculator.csproj.GenerateResource.cache
+C:\Users\Abhishek Srivastava\source\repos\calculator\obj\Debug\calculator.exe
+C:\Users\Abhishek Srivastava\source\repos\calculator\obj\Debug\calculator.pdb
