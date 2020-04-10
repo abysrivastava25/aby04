@@ -1,0 +1,337 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Intro_Entity",
+		"_postman_id": "50856b96-2cae-05fb-cc75-8246d8f4d8fd",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:44336/api/Main/GetAllData",
+			"request": {
+				"url": "https://localhost:44336/api/Main/GetAllData",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "d6efc2f1-44dc-49f4-b7fd-30e10f82f7d6",
+					"name": "https://localhost:44336/api/Main/GetAllData",
+					"originalRequest": {
+						"url": "https://localhost:44336/api/Main/GetAllData",
+						"method": "GET",
+						"header": [],
+						"body": {}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "1009",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Fri, 10 Apr 2020 16:54:34 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "Microsoft-IIS/10.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "status",
+							"key": "status",
+							"value": "200",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "ASP.NET",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookie": [],
+					"responseTime": 2863,
+					"body": "[{\"customerId\":10,\"customerName\":\"Abhishek\",\"customerAdd\":\"Allahabad\",\"noOfOrder\":3,\"orders\":[{\"orderId\":1,\"fkcustId\":10,\"fkprodId\":102,\"orderAmount\":3,\"orderDate\":\"2020-02-20T00:00:00\",\"fkProd\":null}]},{\"customerId\":11,\"customerName\":\"Vijay\",\"customerAdd\":\"Allahabad\",\"noOfOrder\":3,\"orders\":[{\"orderId\":2,\"fkcustId\":11,\"fkprodId\":101,\"orderAmount\":5,\"orderDate\":\"2020-03-30T00:00:00\",\"fkProd\":null}]},{\"customerId\":12,\"customerName\":\"Vishesh\",\"customerAdd\":\"Allahabad\",\"noOfOrder\":3,\"orders\":[{\"orderId\":4,\"fkcustId\":12,\"fkprodId\":104,\"orderAmount\":7,\"orderDate\":\"2020-02-15T00:00:00\",\"fkProd\":null}]},{\"customerId\":13,\"customerName\":\"Anshika\",\"customerAdd\":\"Allahabad\",\"noOfOrder\":3,\"orders\":[{\"orderId\":5,\"fkcustId\":13,\"fkprodId\":102,\"orderAmount\":1,\"orderDate\":\"2020-01-26T00:00:00\",\"fkProd\":null}]},{\"customerId\":14,\"customerName\":\"Bhagyashree\",\"customerAdd\":\"Allahabad\",\"noOfOrder\":3,\"orders\":[{\"orderId\":3,\"fkcustId\":14,\"fkprodId\":103,\"orderAmount\":2,\"orderDate\":\"2020-01-22T00:00:00\",\"fkProd\":null}]}]"
+				}
+			]
+		},
+		{
+			"name": "https://localhost:44336/api/Main/GetSingle/12",
+			"request": {
+				"url": "https://localhost:44336/api/Main/GetSingle/12",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "0ba308ed-18aa-49a8-aeef-ef17e7341bba",
+					"name": "https://localhost:44336/api/Main/GetSingle/12",
+					"originalRequest": {
+						"url": "https://localhost:44336/api/Main/GetSingle/12",
+						"method": "GET",
+						"header": [],
+						"body": {}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "249",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Fri, 10 Apr 2020 16:56:24 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "Microsoft-IIS/10.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "status",
+							"key": "status",
+							"value": "200",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "ASP.NET",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookie": [],
+					"responseTime": 372,
+					"body": "[{\"customerId\":12,\"customerName\":\"Vishesh\",\"customerAdd\":\"Allahabad\",\"noOfOrder\":3,\"orders\":[{\"orderId\":4,\"fkcustId\":12,\"fkprodId\":104,\"orderAmount\":7,\"orderDate\":\"2020-02-15T00:00:00\",\"fkProd\":{\"prodId\":104,\"prOdName\":\"Coldrink\",\"prodPrice\":90}}]}]"
+				}
+			]
+		},
+		{
+			"name": "https://localhost:44336/api/Main/Insert",
+			"request": {
+				"url": "https://localhost:44336/api/Main/Insert",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"OrderID\":6,\n\t\"FKProdID\":105,\n\t\"OrderAmount\":\"4\",\n\t\"OrderDate\":\"2020-03-22T00:00:00\",\n\t\"fkProd\":\n\t\t{\n\t\t\t\"ProdId\":\"105\",\n\t\t\t\"PrOdName\":\"laptop\",\n\t\t\t\"ProdPrice\":\"90000\"\n\t\t},\n\t\t\"fkCust\":{\n\t\t\t\"CustomerId\":15,\n\t\t\t\"CustomerName\":\"Neha\",\n\t\t\t\"CustomerAdd\":\"Delhi\",\n\t\t\t\"NoOfOrder\":4,\n\t\t\t\"orders\":[]\n\t\t\t\n\t\t}\n\t\t\n}"
+				},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "c158ac94-cd00-4359-884e-7f2e6406a6d0",
+					"name": "https://localhost:44336/api/Main/Insert",
+					"originalRequest": {
+						"url": "https://localhost:44336/api/Main/Insert",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"OrderID\":6,\n\t\"FKProdID\":105,\n\t\"OrderAmount\":\"4\",\n\t\"OrderDate\":\"2020-03-22T00:00:00\",\n\t\"fkProd\":\n\t\t{\n\t\t\t\"ProdId\":\"105\",\n\t\t\t\"PrOdName\":\"laptop\",\n\t\t\t\"ProdPrice\":\"90000\"\n\t\t},\n\t\t\"fkCust\":{\n\t\t\t\"CustomerId\":15,\n\t\t\t\"CustomerName\":\"Neha\",\n\t\t\t\"CustomerAdd\":\"Delhi\",\n\t\t\t\"NoOfOrder\":4,\n\t\t\t\"orders\":[]\n\t\t\t\n\t\t}\n\t\t\n}"
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "4",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Fri, 10 Apr 2020 18:07:38 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "Microsoft-IIS/10.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "status",
+							"key": "status",
+							"value": "200",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "ASP.NET",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookie": [],
+					"responseTime": 12058,
+					"body": "true"
+				}
+			]
+		},
+		{
+			"name": "https://localhost:44336/api/Main/AddOrder",
+			"request": {
+				"url": "https://localhost:44336/api/Main/AddOrder",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"fkCustId\":11,\n\t\"fkProdId\":104,\n\t\"OrderAmount\":7,\n\t\"OrderDate\":\"2020-02-12T00:00:00\"\n\t\n\t\n}"
+				},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "e292c45f-7c19-44c5-86c4-b40042f77f6c",
+					"name": "https://localhost:44336/api/Main/AddOrder",
+					"originalRequest": {
+						"url": "https://localhost:44336/api/Main/AddOrder",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"fkCustId\":11,\n\t\"fkProdId\":104,\n\t\"OrderAmount\":7,\n\t\"OrderDate\":\"2020-02-12T00:00:00\"\n\t\n\t\n}"
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "4",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Fri, 10 Apr 2020 18:17:07 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "Microsoft-IIS/10.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "status",
+							"key": "status",
+							"value": "200",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "ASP.NET",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookie": [],
+					"responseTime": 820,
+					"body": "true"
+				}
+			]
+		},
+		{
+			"name": "https://localhost:44336/api/Main/Remove",
+			"request": {
+				"url": "https://localhost:44336/api/Main/Remove",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"OrderId\":6,\n\t\"fkCustId\":15,\n\t\"fkProdId\":105\n\t\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
