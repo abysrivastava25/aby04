@@ -1,0 +1,16 @@
+﻿@{
+    Layout = "~/Views/Shared/_NavBar.cshtml";
+}
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Controller to view </h2>
+<ul>
+    @foreach (var std in ViewBag.students)
+    { 
+        <li>
+            @std
+        </li>
+    }
+</ul>

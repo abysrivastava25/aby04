@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>MVC Life Cycle</h2>
+<p>
+    Its has following Sequence of events.
+</p>
+<ul>
+    <li>
+        Routing
+    </li>
+    <li>
+        Controller Initialisation
+    </li>
+    <li>
+        Action Execution
+    </li>
+    <li>
+        Result Execution
+    </li>
+    <li>
+       View Engine
+    </li>
+</ul>
+<p>
+    It is the sequence of events that happen every time an HTTP request is handled by our application.
+
+    The entry point for every MVC application begins with routing. After the ASP.NET platform has received a request, it figures out how it should be handled through the URL Routing Module.
+
+    Modules are .NET components that can hook into the application life cycle and add functionality. The routing module is responsible for matching the incoming URL to routes that we define in our application.
+
+    All routes have an associated route handler with them and this is the entry point to the MVC framework.
+    The MVC framework handles converting the route data into a concrete controller that can handle requests. After the controller has been created, the next major step is Action Execution. A component called the action invoker finds and selects an appropriate Action method to invoke the controller.
+
+    After our action result has been prepared, the next stage triggers, which is Result Execution. MVC separates declaring the result from executing the result. If the result is a view type, the View Engine will be called and it's responsible for finding and rending our view.
+
+    If the result is not a view, the action result will execute on its own. This Result Execution is what generates an actual response to the original HTTP request.
+</p>
