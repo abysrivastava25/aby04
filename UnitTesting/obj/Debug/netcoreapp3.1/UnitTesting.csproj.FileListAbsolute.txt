@@ -1,0 +1,15 @@
+C:\Users\Abhishek Srivastava\source\repos\UnitTesting\bin\Debug\netcoreapp3.1\UnitTesting.exe
+C:\Users\Abhishek Srivastava\source\repos\UnitTesting\obj\Debug\netcoreapp3.1\UnitTesting.csprojAssemblyReference.cache
+C:\Users\Abhishek Srivastava\source\repos\UnitTesting\obj\Debug\netcoreapp3.1\UnitTesting.AssemblyInfoInputs.cache
+C:\Users\Abhishek Srivastava\source\repos\UnitTesting\obj\Debug\netcoreapp3.1\UnitTesting.AssemblyInfo.cs
+C:\Users\Abhishek Srivastava\source\repos\UnitTesting\obj\Debug\netcoreapp3.1\UnitTesting.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek Srivastava\source\repos\UnitTesting\bin\Debug\netcoreapp3.1\UnitTesting.deps.json
+C:\Users\Abhishek Srivastava\source\repos\UnitTesting\bin\Debug\netcoreapp3.1\UnitTesting.runtimeconfig.json
+C:\Users\Abhishek Srivastava\source\repos\UnitTesting\bin\Debug\netcoreapp3.1\UnitTesting.runtimeconfig.dev.json
+C:\Users\Abhishek Srivastava\source\repos\UnitTesting\bin\Debug\netcoreapp3.1\UnitTesting.dll
+C:\Users\Abhishek Srivastava\source\repos\UnitTesting\bin\Debug\netcoreapp3.1\UnitTesting.pdb
+C:\Users\Abhishek Srivastava\source\repos\UnitTesting\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Abhishek Srivastava\source\repos\UnitTesting\obj\Debug\netcoreapp3.1\UnitTesting.csproj.CopyComplete
+C:\Users\Abhishek Srivastava\source\repos\UnitTesting\obj\Debug\netcoreapp3.1\UnitTesting.dll
+C:\Users\Abhishek Srivastava\source\repos\UnitTesting\obj\Debug\netcoreapp3.1\UnitTesting.pdb
+C:\Users\Abhishek Srivastava\source\repos\UnitTesting\obj\Debug\netcoreapp3.1\UnitTesting.genruntimeconfig.cache

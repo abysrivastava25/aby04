@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7jV0ClqsAVczhPSc3rL1aZL89rCMwtikogoWNyxMX8nfw9sZ90GHrJTQBbxAUsC3Op0RP7bKmu+hP0krcXE9JA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Abhishek Srivastava\\source\\repos\\UnitTesting\\UnitTesting.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Abhishek Srivastava\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
