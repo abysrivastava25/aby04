@@ -1,0 +1,69 @@
+﻿@page "/DeleteStudent/{PresentID}"
+@using Blazor_App.Data
+@inject Blazor_App.Data.Services.Student service
+@inject NavigationManager navigationManager
+
+<h2>Delete Students</h2>
+<hr />
+<h3>Are you sure you want to delete</h3>
+<div class="row">
+    <div class="col-md-8">
+        <div class="form-group">
+            <lable>StudentId:</lable>
+            <label>@Stu.Id</label>
+
+        </div>
+        <div class="form-group">
+            <lable>Student Name:</lable>
+            <label>@Stu.Name</label>
+
+        </div>
+        <div class="form-group">
+            <lable>Student City:</lable>
+            <label>@Stu.Age</label>
+
+        </div>
+      
+        <div class="form-group">
+            <lable>Student Gender:</lable>
+            <label>@Stu.Gender</label>
+
+        </div>
+
+    </div>
+
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <div class="form-group">
+            <input type="button" class="btn btn-danger" @onclick="@Delete" value="Delete" />
+            <input type="button" class="btn btn-primary" @onclick="@Cancel" value="cancle" />
+        </div>
+
+    </div>
+
+</div>
+
+
+@code {
+    [Parameter]
+    public string PresentID { get; set; }
+    Employee_Model.Models.entityModels.TblStudent Stu = new Employee_Model.Models.entityModels.TblStudent();
+
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        Stu = await Task.Run(() => service.GetDetailsByID(Convert.ToInt32(PresentID)));
+    }
+
+    protected void Delete()
+    {
+        service.Delete(Stu);
+        navigationManager.NavigateTo("/StudentDetails");
+    }
+    void Cancel()
+    {
+        navigationManager.NavigateTo("/StudentDetails");
+    }
+}

@@ -1,0 +1,77 @@
+﻿@page "/EditStudent/{PresentID}"
+@using Blazor_App.Data
+@inject Blazor_App.Data.Services.Student service
+@inject NavigationManager navigationManager
+<h2>Update Students</h2>
+<hr />
+<form>
+    <div class="row">
+        <div class="col-md-8">
+            <div class=" form-group">
+
+                <input form="Name" class="form-control" @bind="@Stu.Id" />
+
+            </div>
+            <div class=" form-group">
+                <label for=" Name" class="control-label">Name</label>
+                <input form="Name" class="form-control" @bind="@Stu.Name" />
+
+            </div>
+            
+
+            <div class=" form-group">
+                <label for="Age" class="control-label">Age</label>
+                <input form="Age" class="form-control" @bind="@Stu.Age" />
+
+
+            </div>
+            <div class=" form-group">
+                <label for="Gender" class="control-label"></label>
+                <select @bind="@Stu.Gender" class="form-control">
+                    <option> select city</option>
+                    <option value="Male">Male</option>
+                    <option value="Female ">Female</option>
+
+
+                </select>
+
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-group">
+                <input type="button" class="btn btn-primary" @onclick="@Update" value="save" />
+                <input type="button" class="btn btn-primary" @onclick="@Cancel" value="cancle" />
+            </div>
+
+        </div>
+
+    </div>
+</form>
+
+@code {
+    [Parameter]
+    public string PresentID { get; set; }
+    Employee_Model.Models.entityModels.TblStudent Stu = new Employee_Model.Models.entityModels.TblStudent();
+
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        Stu = await Task.Run(() => service.GetDetailsByID(Convert.ToInt32(PresentID)));
+    }
+
+    protected void Update()
+    {
+        service.UpdateStudent(Stu);
+        navigationManager.NavigateTo("/StudentDetails");
+    }
+    void Cancel()
+    {
+        navigationManager.NavigateTo("/StudentDetails");
+    }
+}

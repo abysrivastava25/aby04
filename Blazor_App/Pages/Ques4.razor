@@ -1,0 +1,40 @@
+﻿@page "/Ques4"
+<h3>Ques4</h3>
+<br />
+
+<h4>In Blazor there are three types of bindings</h4>
+
+<h5>One way Binding </h5>
+<p>
+    @Message
+</p>
+
+@functions{
+    String Message = "This is the example of One Way Binding In Blazor Application";
+}
+
+<h5>Two Way Binding</h5>
+
+<h6>@Title</h6>
+
+<input @bind="@Title" />
+
+@code {
+    private string Title { get; set; } = "Hello, World!";
+}
+
+
+<h5>Event Binding</h5>
+<br />
+<br />
+<button @onclick=ButtonClicked>Event Binding Example</button>
+<br />
+<p>Message: @Msg</p>
+
+@functions {
+    private string Msg { get; set; } = "";
+    void ButtonClicked()
+    {
+        Msg = "Button Clicked";
+    }
+}

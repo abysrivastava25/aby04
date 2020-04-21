@@ -1,0 +1,45 @@
+﻿@using Blazor_App.Data
+@inject Blazor_App.Data.Services.SideNav services
+
+
+
+<div class="sidebar">
+    <NavLink class="nav-link" href="AddSideNavBar">
+        <span class="oi oi-plus" aria-hidden="true"></span>
+        add new NavMenu
+
+
+    </NavLink>
+    @if (nav == null)
+    {
+        <p><em>Loading page...</em></p>
+    }
+    else
+    {
+
+        @foreach (var category in nav)
+        {
+
+            <ul class="nav flex-column">
+                <li class="nav-item px-3">
+                    <a class="nav-link" href="@category.Reference">
+                        <span class="oi oi-book" aria-hidden="true"></span>@category.Name
+                    </a>
+                </li>
+            </ul>
+        }
+
+
+    }
+
+</div>
+
+@code
+{
+    List<Employee_Model.Models.entityModels.SideNavbar> nav;
+    protected override async Task OnInitializedAsync()
+    {
+        nav = await Task.Run(() => services.GetSideNav());
+    }
+
+}

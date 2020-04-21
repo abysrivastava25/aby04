@@ -1,0 +1,60 @@
+﻿@page "/StudentDetails"
+@using Blazor_App.Data
+@inject Blazor_App.Data.Services.Student services
+
+<NavLink class="nav-link" href="NewStudent">
+    <span class="oi oi-plus" aria-hidden="true"></span>Add New
+
+</NavLink>
+
+<h1>Student Information</h1>
+@if (students == null)
+{
+    <p><em>Loading...........</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>StudentID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var s in students)
+            {
+                <tr>
+                    <td>@s.Id</td>
+                    <td>@s.Name</td>
+                    <td>@s.Age</td>
+                    <td>@s.Gender</td>
+                    <td>
+                        <a class="nav-link" href="EditStudent/@s.Id">
+                            <span class="oi oi-pencil" aria-hidden="true"></span>Edit
+                        </a>
+                        <a class="nav-link" href="DeleteStudent/@s.Id">
+                            <span class="oi oi-trash" aria-hidden="true"></span>Delete
+                        </a>
+                    </td>
+
+
+                </tr>
+
+            }
+        </tbody>
+
+    </table>
+}
+@code {
+    List<Employee_Model.Models.entityModels.TblStudent> students;
+    protected override async Task OnInitializedAsync()
+    {
+        students = await Task.Run(() => services.GetDetails());
+    }
+
+}

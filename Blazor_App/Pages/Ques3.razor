@@ -1,0 +1,25 @@
+﻿@page "/Ques3"
+<h3>Ques3</h3>
+<br />
+<h4>Blazor life cycle has Seven lifeCycle Methods </h4>
+<br />
+<h5>OnIntialized and OnInitializedAsync </h5>
+<p>
+    The Synchronous and asynchronous version methods of the application are executed when the components are loaded
+    OnInitialized is called before OnIntializedAsync.
+</p>
+<h5>OnParametersSet and OnParametersSetAsync</h5>
+<p>
+    The Synchronous and Asynchronous way of setting the parameters when the components receive the parameter  from its parent component.
+</p>
+<h5>OnAfterRender and OnAfterRenderAsync</h5>
+<p>
+    The Synchronous and Asynchronous version of performing some additional operation like Initialising a component.
+    These methods are called after the rendering of the components.
+</p>
+<h5>ShouldRender</h5>
+<p>
+    This method returns a boolean value, if returns true, it means refresh the UI, otherwise changes are not sent to UI.
+    The ShouldRender method always does the initial rendering despite its return value.
+</p>
+

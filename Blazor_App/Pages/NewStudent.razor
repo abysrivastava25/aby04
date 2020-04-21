@@ -1,0 +1,65 @@
+﻿@page "/NewStudent"
+@using Employee_Model.Models
+@using Blazor_App.Data
+@inject Blazor_App.Data.Services.Student Services
+@inject NavigationManager NavigationManager
+
+<h2>New Students</h2>
+<hr />
+<form>
+    <div class="row">
+        <div class="col-md-8">
+            <div class=" form-group">
+                <label for=" Name" class="control-label">Name</label>
+                <input form="Name" class="form-control" @bind="@Stu.Name" />
+
+            </div>
+
+            <div class=" form-group">
+                <label for="Age" class="control-label">Age</label>
+                <input form="Age" class="form-control" @bind="@Stu.Age" />
+
+
+            </div>
+            <div class=" form-group">
+                <label for="Gender" class="control-label"></label>
+                <select @bind="@Stu.Gender" class="form-control">
+                    <option> select Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female ">Female</option>
+
+
+                </select>
+
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-group">
+                <input type="button" class="btn btn-primary" @onclick="@AddStudent" value="save" />
+                <input type="button" class="btn btn-primary" @onclick="@Cancel" value="cancle" />
+            </div>
+
+        </div>
+
+    </div>
+</form>
+
+@code {
+    Employee_Model.Models.entityModels.TblStudent Stu = new Employee_Model.Models.entityModels.TblStudent();
+
+    protected void AddStudent()
+    {
+        Services.Insert(Stu);
+        NavigationManager.NavigateTo("/StudentInfo");
+    }
+    void Cancel()
+    {
+        NavigationManager.NavigateTo("/StudentInfo");
+    }
+}
+

@@ -1,0 +1,29 @@
+﻿@page "/Ques1"
+<h3>Ques1</h3>
+
+<div>
+    <h4>Difference between the Blazor Server-side and Client-side </h4>
+    <br/>
+    <h5>Blazor Client-Side</h5>
+    <p>
+       The principle hosting model of blazor is running on the client side in the browser using Web Assembly.
+       All the blazor app, its dependencies and the .net ruuntime is downloaded in the browser.
+        The app is directly executed on the Browser.
+    </p>
+    <h5>Blazor Server-Side</h5>
+    <p>
+       The Blazor server-side is hosted on the server and the app is executed on the server from within an asp.net core app.
+        UI updates, event handling and javascripts calls are handled over a Signal-R Connection 
+    </p>
+
+    <h5>Web Assembly</h5>
+    <p>
+        WebAssembly code allows access to the full functionality of the browser via JavaScript interop. 
+        Since it’s a compact bytecode format, it’s optimized for minimum download sizes and maximum execution speed making it much faster and more efficient.
+    </p>
+    <h5>SignalR Connection</h5>
+    <p>
+        SignalR is the medium through  which a client browser and server interacts to each other.
+        The functionalities such as UI updates, Event handling , javascript interops call is handled by the SignalR Connection over the network.
+    </p>
+</div>

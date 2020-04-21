@@ -1,0 +1,83 @@
+﻿
+@page "/calculator"
+
+<h1>Basic Calculator Demo Using Blazor</h1>
+<hr />
+<div>
+    <div class="row">
+        <div class="col-sm-3">
+            <p>First Number</p>
+        </div>
+        <div class="col-sm-4">
+            <input placeholder="Enter First Number" @bind="number1" />
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-sm-3">
+            <p>Second Number</p>
+        </div>
+        <div class="col-sm-4">
+            <input placeholder="Enter Second Number" @bind="number2" />
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-sm-3">
+            <p>Result</p>
+        </div>
+        <div class="col-sm-4">
+            <input readonly @bind="result" />
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-sm-2">
+            <button type="button" @onclick="Add" class="btn">Add (+)</button>
+        </div>
+        <div class="col-sm-2">
+            <button  @onclick="Substract" class="btn btn-primary">Subtract (−)</button>
+        </div>
+        <div class="col-sm-2">
+            <button  @onclick="Multiply" class="btn btn-success ">Multiply (X)</button>
+        </div>
+        <div class="col-sm-2">
+            <button  @onclick="Divide" class="btn btn-info">Divide (X)</button>
+        </div>
+    </div>
+</div>
+
+@functions {
+
+    string number1;
+    string number2;
+    string result;
+
+    void Add()
+    {
+        result = (Convert.ToDouble(number1) + Convert.ToDouble(number2)).ToString();
+    }
+
+    void Substract()
+    {
+        result = (Convert.ToDouble(number1) - Convert.ToDouble(number2)).ToString();
+    }
+
+    void Multiply()
+    {
+        result = (Convert.ToDouble(number1) * Convert.ToDouble(number2)).ToString();
+    }
+
+    void Divide()
+    {
+        if (Convert.ToDouble(number2) != 0)
+        {
+            result = (Convert.ToDouble(number1) / Convert.ToDouble(number2)).ToString();
+        }
+
+        else
+        {
+            result = "Cannot Divide by Zero";
+        }
+    }
+}

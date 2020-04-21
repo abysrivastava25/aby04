@@ -1,0 +1,68 @@
+﻿@page "/"
+@page "/LoginPage"
+@layout LoginPageLayout
+@using Blazor_App.Shared
+@inject Blazor_App.Data.Services.Login services
+@using Blazor_App.Data
+@inject Employee_Model.Models.entityModels.DB_VSContext db
+@inject NavigationManager navigationManager
+
+<h2>login</h2>
+<hr />
+<form>
+    <div class="row">
+        <div class="col-md-8">
+            <div class=" form-group">
+                <label for=" Name" class="control-label">Name</label>
+                <input form="Name" class="form-control" @bind="@login.Name" />
+
+            </div>
+            <div class=" form-group">
+                <label for=" Password" class="control-label">Password</label>
+                <input form="Password" class="form-control" @bind="@login.Password" />
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-group">
+                <input type="button" class="btn btn-primary" @onclick="@LoginGateWay" value="Login" />
+                <input type="button" class="btn btn-primary" @onclick="@Register" value="Register" />
+            </div>
+
+        </div>
+
+    </div>
+</form>
+
+@code {
+
+
+
+    Employee_Model.Models.entityModels.TblLogin login = new Employee_Model.Models.entityModels.TblLogin();
+    protected void LoginGateWay()
+    {
+        var Details = db.TblLogin.Where(x => x.Name == login.Name && x.Password == login.Password).FirstOrDefault();
+        if (Details == null)
+        {
+            navigationManager.NavigateTo("/LoginPage");
+        }
+
+        else
+        {
+            navigationManager.NavigateTo("/Index");
+        }
+    }
+    void Register()
+    {
+        navigationManager.NavigateTo("/UserSignUp");
+    }
+}
+
