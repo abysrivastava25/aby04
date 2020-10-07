@@ -1,0 +1,23 @@
+<div class="container">
+    <label>UserName</label><br>
+    <input type="text" 
+    class="form-control"
+    [(ngModel)]="username" >
+    <p>{{username}}</p>
+    
+    <button class="btn btn-primary"
+    [disabled]="username=== '' "
+    (click)="username=''"
+    > Reset </button>
+    <br><br>
+    
+    <h3>Task-3: Practice predefined angular directives. Using dummy data json.</h3>
+    <button class="btn btn-primary"
+    (click)="onToggleDetails()"
+    >Display Details</button>
+    <p *ngIf="showData">{{JsonData}}</p>
+    <div *ngFor="let logItem of log; let i = index"
+    [ngStyle]="{backgroundColor:i >=5 ? 'red' : 'skyblue'}"
+    [ngClass]="{'white-text':i >=5}"
+    >{{logItem}}</div>
+</div> 

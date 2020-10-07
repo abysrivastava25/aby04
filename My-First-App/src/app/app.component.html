@@ -1,0 +1,14 @@
+
+<div class="container">
+
+  <h1>Week-1 Exercise</h1>
+  <h3>
+    Task-1: Practice some basic Component interaction with @Input, @Output and EventEmitter
+  </h3>
+  <h4> {{message}}</h4>
+
+   <app-child (childEvent)="message = $event" [parentData]="name"></app-child>
+
+</div> 
+
+
