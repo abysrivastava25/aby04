@@ -1,0 +1,21 @@
+<div style="background-color: honeydew;">
+<div>
+  <div class="col margin-top-bottom" *ngFor="let product of cartProductsList" style="background-color:  gainsboro;">
+    {{product.name}} <span>Price : Rs.{{product.quantity == 1 ? product.price:product.rate/product.quantity}}</span>
+    <div>
+      quantity - {{product.quantity}}
+      <button (click)="decreaseQuantity(product.id)" >-</button>
+      <button (click)="increaseQuantity(product.id)">+</button>
+    </div>
+  </div>
+</div>
+
+<div>
+  <h4>Cart Total : Rs.{{cartTotal}}</h4>
+  <a [routerLink]="['/login']">Buy Now</a>
+</div>
+
+<div>
+  <a [routerLink]="['/']"> Go Back</a>
+</div>
+</div>

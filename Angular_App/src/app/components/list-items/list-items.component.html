@@ -1,0 +1,38 @@
+
+<div class="col-md-12" style="background-color: darkgray;">
+<div class="container" style="color:black; font-size: larger; font: 3em sans-serif; ">
+  <p>Ecommerce Shopping Website</p>
+</div>
+<br>
+<nav class="navbar navbar-expand-sm navbar-light container" style="background-color:chocolate;">
+  <a class="navbar-brand" href="#">Ecommerce</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" [routerLink]="['about']"> About Us <span class="sr-only">(current)</span></a>
+    </div>
+  </div>
+</nav>
+<br>
+<div class="container" style="background-color: brown;">
+  <span>Total Cart Value - Rs.{{cartTotal}}</span> - 
+  <a [routerLink]="['cart']">Go To Cart</a>
+</div>
+<br>
+<div class="container" style="background-color: cadetblue;">
+  <div class="row">
+    <div class="col-4 margin-top-bottom" *ngFor="let product of productsList" >
+      {{product.name}} - Rs. {{product.price}}
+      <div>
+        <button (click)="AddProductToCart(product)">Add To Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
